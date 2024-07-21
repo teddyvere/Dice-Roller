@@ -1,0 +1,20 @@
+[
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "dice",
+        "kind": 2,
+        "importPath": "roll",
+        "description": "roll",
+        "peekOfCode": "def dice(number_of_rolls):\n    dice_rolls = []\n    for _ in range(number_of_rolls):\n        roll = random.randint(1, 6)\n        dice_rolls.append(roll)\n    return dice_rolls\n# roll - run it once and go into a loop\nprint(dice(1))\n# roll 1 - produce a number 1-6 random and print it\nprint(dice(1))",
+        "detail": "roll",
+        "documentation": {}
+    }
+]
